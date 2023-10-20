@@ -51,7 +51,7 @@ header {
 
 /* 1. jumbotron-block */
 .jumbotron-block {
-  background-image: url('/Stepik-Pied-Piper/img/jumbotron-image.png');
+  background-image: url('img/jumbotron-image.png');
   width: 2011px;
   height: 403px;
   margin: 0 auto;
@@ -106,7 +106,7 @@ header {
 /* 3. hero-block */
 
 .hero-block {
-  background-image: url('/Stepik-Pied-Piper/img/hero-image.png');
+  background-image: url('img/hero-image.png');
   width: 2011px;
   height: 483px;
   margin: 0 auto;
