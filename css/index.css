@@ -1,0 +1,284 @@
+body {
+}
+
+/* .wrapper {
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+  
+} */
+
+/* HEADER */
+header {
+  background-color: #007765;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-block {
+  margin: 0 auto;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-bottom: 19px;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.header-nav-menu {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 28px;
+  padding-bottom: 27px;
+}
+
+.separator {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 28px 8px 27px 8px;
+}
+
+/* MAIN */
+
+/* 1. jumbotron-block */
+.jumbotron-block {
+  background-image: url('/Piper-stepik/img/jumbotron-image.png');
+  width: 2011px;
+  height: 403px;
+  margin: 0 auto;
+}
+
+.jumbotron-title {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 160px 396px;
+}
+
+/* 2. theproblem-block */
+.theproblem-block {
+  background-color: #eee;
+}
+.theproblem-content {
+  max-width: 1219px;
+  padding: 55px;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+}
+
+.theproblem-title {
+  display: block;
+  padding: 48px 0px 16px;
+  color: #007765;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.theproblem-text {
+  display: block;
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+/* 3. hero-block */
+
+.hero-block {
+  background-image: url('/Piper-stepik/img/hero-image.png');
+  width: 2011px;
+  height: 483px;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.hero-text {
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding: 128px 559px 127px;
+  margin: 0 auto;
+}
+
+/* 4. ppc-block */
+.ppc-title {
+  color: #007765;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 48px 450px 16px;
+}
+
+.ppc-content {
+  max-width: 1219px;
+  box-sizing: border-box;
+  padding: 0px 55px 92px;
+  margin: 0 auto;
+}
+
+.ppc-logo {
+  width: 115px;
+  height: 115px;
+  padding-right: 48px;
+}
+
+.ppc-plus-text1 {
+  display: flex;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ppc-text-1 {
+  width: 930px;
+  height: 110px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.ppc-text-2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+/* 5. team-block */
+.team-block {
+  display: block;
+  width: 2011px;
+  height: 845px;
+  background: #eee;
+  margin: 0 auto;
+}
+
+.team-title-span {
+  display: block;
+  color: #007765;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 58px;
+  padding-left: 451px;
+  padding-right: 450px;
+  padding-bottom: 56px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1219px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.team-card-img {
+  width: 168px;
+  height: 168px;
+  padding: 24px 91px 12px;
+}
+
+.team-card-name {
+  color: #007765;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.team-card-position {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* 6. footer */
+.footer-wrapper {
+  display: block;
+  width: 2011px;
+  height: 176px;
+  background: #333;
+  margin: 0 auto;
+}
+
+.footer-text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+  padding: 50px 735px 62px;
+}
