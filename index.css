@@ -1,15 +1,3 @@
-body {
-}
-
-/* .wrapper {
-  max-width: 1219px;
-  padding-left: 55px;
-  padding-right: 55px;
-  box-sizing: border-box;
-  
-} */
-
-/* HEADER */
 header {
   background-color: #007765;
   position: fixed;
@@ -60,8 +48,6 @@ header {
   line-height: normal;
   padding: 28px 8px 27px 8px;
 }
-
-/* MAIN */
 
 /* 1. jumbotron-block */
 .jumbotron-block {
